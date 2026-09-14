@@ -1,0 +1,32 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data — fetched via script, never committed
+data/
+
+# MLflow local tracking
+mlruns/
+mlartifacts/
+
+# Secrets / env vars
+.env
+
+# PyCharm
+.idea/
+
+# OS cruft
+.DS_Store
+Thumbs.db
